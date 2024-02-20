@@ -3,37 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
     <title>Footer Example</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-200">
     <footer class="bg-[#659f8f] dark:bg-[#313131] px-10 py-2.5">
         <div class="container mx-auto">
             <footer class="bg-[#659f8f] dark:bg-[#313131]">
                 <div class="container px-6 py-12 mx-auto">
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
                         <div class="sm:col-span-2">
-                            <h1 class="max-w-lg text-xl font-semibold tracking-tight text-[313131] xl:text-2xl dark:text-white" >Subscribe to our newletter for updates.</h1>
+                            <span class="max-w-lg text-xl font-semibold tracking-tight text-[313131] xl:text-2xl dark:text-white">company</span>
+                            <p class="text-black-500">
+                              Maile Extension <br>
+                              Rustenburg 0300 <br>
+                              North west <br>
+                              <strong>Phone</strong> 0794036164 <br>
+                              <strong>Email</strong> omphemetsemarole1@gmail.com <br>
+                            </p>
+                            <h4 join our newsletter for updates.></h4>
                             <div class="flex flex-col mx-auto mt-6 space-y-0 md:flex-row">
-
+                                <form>
                                 <input class="px-4 py-2.5 text-[#313131] bg-white border rounded-md dark:bg-[#313131] dark:text-white dark:border-[#313131] focus:border-[#d86943] dark:focus:border-[#d86943] focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-[#d86943]" id="email" type="text" placeholder="Email Address">
-                                <button class="sm:w-full md:w-auto px-6  py-2.5 bg-[#d86943] text-white rounded-md md:mx-5">
-                                </button>   Subscribe
-                                </button>
+                                <button class="sm:w-full md:w-auto px-6  py-2.5 bg-[#d86943] text-white rounded-md md:mx-5">Subscribe</button>
+                                </form>
                             </div>
                         </div>
                         <div>
-                            <p class="text-[#313131]">Quick Link</p>
-                            <div class="flex">
-                                <a href="#">Home</a>
+                            <p> Quick Link </p>
+                            <div class="flex-row">
+                                <a href="#">home</a>
                                 <a href="#">Who We Are</a>
                                 <a href="#">Our Philosophy</a>
                             </div>
                         </div>
                         <div>
                             <p class="text-[#313131]">Technologies</p>
-                            <div class="">
+                            <div class="flex-row">
                                 <a href="#">HTML</a>
                                 <a href="#">CSS</a>
                                 <a href="#">JavaScript</a>
